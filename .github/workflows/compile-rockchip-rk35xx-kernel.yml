@@ -73,10 +73,11 @@ on:
       kernel_sign:
         description: "Set the kernel custom signature"
         required: false
-        default: "-rk35xx-ophub"
+        default: "-rk35xx-Lemon1151"
         type: choice
         options:
           - -rk35xx-ophub
+          - -rk35xx-Lemon1151
           - -happy-new-year
           - -dragon-boat-festival
           - -mid-autumn-festival
