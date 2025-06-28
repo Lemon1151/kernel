@@ -82,10 +82,11 @@ on:
       kernel_sign:
         description: "Set the kernel custom signature"
         required: false
-        default: "-ophub"
+        default: "-Lemon1151"
         type: choice
         options:
           - -ophub
+          - -Lemon1151
           - -happy-new-year
           - -dragon-boat-festival
           - -mid-autumn-festival
